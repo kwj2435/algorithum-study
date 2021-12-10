@@ -10,10 +10,9 @@ import java.util.ArrayList;
 
 @SpringBootApplication
 public class UijinAlgorithumApplication {
-
     public static void main(String[] args) {
         RecommandId recommandId = new RecommandId();
-        String answer = "...!@BaT#*..y.abcdefghijklm";
+        String answer = "........................";
 
         String response = recommandId.solution(answer);
 
