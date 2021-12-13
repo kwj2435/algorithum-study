@@ -1,5 +1,6 @@
 package com.algo.study;
 
+import com.algo.study.programmers.Collatz;
 import com.algo.study.programmers.KeyPad;
 import com.algo.study.programmers.LottoRank;
 import com.algo.study.programmers.RecommandId;
@@ -12,11 +13,9 @@ import java.util.ArrayList;
 @SpringBootApplication
 public class UijinAlgorithumApplication {
     public static void main(String[] args) {
-        KeyPad keyPad = new KeyPad();
-        int[] answer = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
-        String hand = "left";
+        Collatz keyPad = new Collatz();
 
-        String response = keyPad.solution(answer, hand);
+        int response = keyPad.solution(6);
 
          SpringApplication.run(UijinAlgorithumApplication.class, args);
     }
