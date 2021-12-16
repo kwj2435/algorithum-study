@@ -27,32 +27,36 @@ class GymSuitTest {
         ns.add(5);
         ns.add(5);
 
-        losts.add(new int[]{2,4});
-        losts.add(new int[]{2,4});
+//        losts.add(new int[]{2,4});
+//        losts.add(new int[]{2,4});
         losts.add(new int[]{6,2,4});
-        losts.add(new int[]{1,2});
-        losts.add(new int[]{4,3});
-        losts.add(new int[]{5,7,9});
-        losts.add(new int[]{2,4});
-        losts.add(new int[]{3,5});
+//        losts.add(new int[]{1,2});
+//        losts.add(new int[]{4,3});
+//        losts.add(new int[]{5,7,9});
+//        losts.add(new int[]{2,4});
+//        losts.add(new int[]{3,5});
+//        losts.add(new int[]{9,7,5});
 
-        reservess.add(new int[]{1,3,5});
-        reservess.add(new int[]{3});
+//        reservess.add(new int[]{1,3,5});
+//        reservess.add(new int[]{3});
         reservess.add(new int[]{1,5,3});
-        reservess.add(new int[]{2,3});
-        reservess.add(new int[]{3,2});
-        reservess.add(new int[]{1,2,3,4,6,8});
-        reservess.add(new int[]{5,3});
-        reservess.add(new int[]{2,4});
+//        reservess.add(new int[]{2,3});
+//        reservess.add(new int[]{3,2});
+//        reservess.add(new int[]{1,2,3,4,6,8});
+//        reservess.add(new int[]{5,3});
+//        reservess.add(new int[]{2,4});
+//        reservess.add(new int[]{2,4});
+//        reservess.add(new int[]{4,3,2,8,6,1});
 
+//        expectes.add(5);
+//        expectes.add(4);
         expectes.add(5);
-        expectes.add(4);
-        expectes.add(6);
-        expectes.add(2);
-        expectes.add(4);
-        expectes.add(10);
-        expectes.add(5);
-        expectes.add(5);
+//        expectes.add(2);
+//        expectes.add(4);
+//        expectes.add(10);
+//        expectes.add(5);
+//        expectes.add(5);
+//        expectes.add(4);
 
         for(int i = 0 ; i<ns.size() ; i++) {
             int answer = gymSuit.solution(ns.get(i), losts.get(i), reservess.get(i));

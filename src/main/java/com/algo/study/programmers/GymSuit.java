@@ -5,7 +5,6 @@ import java.util.Arrays;
 // 프로그래머스 Level 1 콜라즈 추측
 public class GymSuit {
     /**
-     *
      * @param n     전체 학생 수
      * @param lost  도난당한 학생들의 번호
      * @param reserve 여벌의 체육복을 가져온 학생들 번호
@@ -14,7 +13,7 @@ public class GymSuit {
     public int[] sort(int[] arr) {
         for(int i = 0 ; i<arr.length; i++) {
             for(int j = 0 ; j<arr.length -1; j++) {
-                if(arr[j] > arr[j] + 1) {
+                if(arr[j] > arr[j+1]) {
                     int tem = arr[j];
                     arr[j] = arr[i];
                     arr[i] = tem;
