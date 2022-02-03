@@ -1,5 +1,7 @@
 package com.algo.study;
 
+import com.algo.study.inflearn.StringCast;
+import com.algo.study.inflearn.WordInSentence;
 import com.algo.study.programmers.Collatz;
 import com.algo.study.programmers.KeyPad;
 import com.algo.study.programmers.LottoRank;
@@ -13,9 +15,9 @@ import java.util.ArrayList;
 @SpringBootApplication
 public class UijinAlgorithumApplication {
     public static void main(String[] args) {
-        Collatz keyPad = new Collatz();
+        WordInSentence stringCast = new WordInSentence();
 
-        int response = keyPad.solution(6);
+        stringCast.wordInSentence();
 
          SpringApplication.run(UijinAlgorithumApplication.class, args);
     }
