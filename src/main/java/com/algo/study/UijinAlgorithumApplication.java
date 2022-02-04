@@ -1,25 +1,20 @@
 package com.algo.study;
 
-import com.algo.study.inflearn.StringCast;
-import com.algo.study.inflearn.WordInSentence;
-import com.algo.study.programmers.Collatz;
-import com.algo.study.programmers.KeyPad;
-import com.algo.study.programmers.LottoRank;
-import com.algo.study.programmers.RecommandId;
-import com.sun.org.apache.xerces.internal.xs.XSTypeDefinition;
+import com.algo.study.inflearn.CorrectParenthesis;
+import com.algo.study.inflearn.FlipWordOnlyAlphabet;
+import com.algo.study.inflearn.InflearnStack2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.ArrayList;
+import java.util.Scanner;
 
 @SpringBootApplication
 public class UijinAlgorithumApplication {
     public static void main(String[] args) {
-        WordInSentence stringCast = new WordInSentence();
+        InflearnStack2 stringCast = new InflearnStack2();
 
-        stringCast.wordInSentence();
+        stringCast.solution();
 
-         SpringApplication.run(UijinAlgorithumApplication.class, args);
+        SpringApplication.run(UijinAlgorithumApplication.class, args);
     }
-
 }
