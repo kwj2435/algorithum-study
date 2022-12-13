@@ -1,4 +1,4 @@
-package com.algo.algorithumstudy.programmers.level02
+package com.algo.programmers.level02
 
 import java.util.*
 import kotlin.math.ceil

@@ -1,4 +1,4 @@
-package com.algo.algorithumstudy.programmers.level02
+package com.algo.programmers.level02
 
 // 타겟 넘버
 // https://school.programmers.co.kr/learn/courses/30/lessons/43165
