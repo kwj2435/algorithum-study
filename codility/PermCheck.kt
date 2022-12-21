@@ -1,7 +1,7 @@
 package com.algo.programmers.level01
 
-// BinaryGap
-class BinaryGap {
+// PermCheck
+class PermCheck {
     fun solution(A: IntArray): Int {
         for(value in A) {
             if(value > A.size) break
