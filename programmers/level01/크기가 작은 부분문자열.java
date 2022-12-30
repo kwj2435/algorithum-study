@@ -3,14 +3,25 @@ import java.util.*;
 // 크기가 작은 부분문자열
 // https://school.programmers.co.kr/learn/courses/30/lessons/147355
 class P147355 {
-    public int solution(String t, String p) {
+    public int solution(int n) {
         var answer = 0;
 
-        for(int i = 0; i<t.length()-p.length()+1; i++){
-            var tem = t.substring(i, i+p.length());
-            if(Long.parseLong(tem) <= Long.parseLong(p)) answer ++;
+        var three = change(n);
+        var multi = 1;
+        for(int i = three.length()-1 ; i >= 0 ; i--){
+            answer += Character.getNumericValue(three.charAt(i)) * multi;
+            multi *= 3;
         }
 
         return answer;
+    }
+
+    private String change(int input) {
+        var sb = new StringBuilder();
+        while(input != 0) {
+            sb.append(input%3);
+            input /= 3;
+        }
+        return sb.toString();
     }
 }
